@@ -3,7 +3,7 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'https://github.com/Catherine0228/facebook-messenger-echo-bot.git'
+const FACEBOOK_ACCESS_TOKEN = 'EAAb3T1nFuJ8BACf1LCa51J7asPTZACn329tBoZAZBjegbp9kmFrjx3QtXuFx3ZAtfRSgirOUMC6dSYkOZB6ikU0vA1XNXJYZBloP58JzDBE2TwhKzcCsaMCv0dwV4YWLZBjRkO6k4UdFyu3KTdZATw4kwsQy1aWmswPU8oLvYTsEBAZDZD'
 const PORT = process.env.PORT || 3000
 const VERIFY_TOKEN = 'Catherine_Verify_Token'
 
