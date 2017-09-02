@@ -3,9 +3,9 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'Your_Facebook_Access_Token'
+const FACEBOOK_ACCESS_TOKEN = 'https://github.com/Catherine0228/facebook-messenger-echo-bot.git'
 const PORT = process.env.PORT || 3000
-const VERIFY_TOKEN = 'Your_Verify_Token'
+const VERIFY_TOKEN = 'Catherine_Verify_Token'
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
